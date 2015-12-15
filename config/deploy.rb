@@ -34,6 +34,8 @@ set :repo_url, 'https://github.com/Nitin-Keswani/cap_rvm_app.git'
 # Default value for keep_releases is 5
 # set :keep_releases, 5
 
+set :rvm_ruby_version, '2.1.0'
+
 namespace :deploy do
 
   after :restart, :clear_cache do
